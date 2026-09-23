@@ -1,0 +1,20 @@
+object fpdf: Tfpdf
+  Left = 0
+  Top = 0
+  Border.Styling = False
+  BorderIcons = []
+  BorderStyle = None
+  ClientHeight = 800
+  ClientWidth = 480
+  Fill.Kind = Solid
+  Transparency = True
+  WindowState = wsMaximized
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  FullScreen = True
+  ShowFullScreenIcon = True
+  ShowHint = False
+  OnCreate = FormCreate
+  DesignerMasterStyle = 3
+end

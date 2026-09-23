@@ -1,0 +1,26 @@
+.DS_Store
+Thumbs.db
+
+# Delphi local/build artifacts
+*.dproj.local
+*.identcache
+*.stat
+*.vlb
+Win32/
+Win64/
+Android/
+Android64/
+__history/
+
+# Local databases and credentials
+src/db.db
+*.local.ini
+
+# Compiled packages
+*.exe
+*.dll
+*.apk
+*.aab
+*.so
+*.dcu
+
